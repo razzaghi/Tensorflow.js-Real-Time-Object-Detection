@@ -1,5 +1,27 @@
-.size {
-  position: fixed;
+
+.output {
+  position: absolute;
   top: 0;
+  left: 0;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+.videoflip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: auto;
+  height: auto;
+}
+.FoundFaces {
+  position: absolute;
+  top: 500;
   left: 0;
 }
